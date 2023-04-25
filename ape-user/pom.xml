@@ -15,6 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <ape.common.version>1.0.0-SNAPSHOT</ape.common.version>
     </properties>
 
     <dependencies>
@@ -24,5 +25,17 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.jingdianjichi</groupId>
+            <artifactId>ape-common-web</artifactId>
+            <version>${ape.common.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jingdianjichi</groupId>
+            <artifactId>ape-common-mybatisplus</artifactId>
+            <version>${ape.common.version}</version>
+        </dependency>
+
     </dependencies>
 </project>
