@@ -1,17 +1,15 @@
-package entity.po;
+package com.jingdianjichi.entity;
 
-import com.baomidou.mybatisplus.annotation.*;
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
-@TableName("user")
 @Data
-public class UserPo {
-    @TableId(value = "id",type = IdType.AUTO)
-    private Long id;
-    private String name;
-    private Integer age;
+public class BaseEntity implements Serializable {
     @TableField(fill = FieldFill.INSERT)
     private String createBy;
     @TableField(fill = FieldFill.INSERT)
@@ -20,7 +18,9 @@ public class UserPo {
     private String updateBy;
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date updateTime;
+    @TableField(fill = FieldFill.INSERT)
+    @TableLogic
     private Integer deleteFlag;
+    @TableField(fill = FieldFill.INSERT)
     private Integer version;
-
 }

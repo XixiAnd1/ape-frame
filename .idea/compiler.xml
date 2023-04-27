@@ -17,7 +17,7 @@
       <module name="ape-common" options="" />
       <module name="ape-common-mybatisplus" options="-parameters" />
       <module name="ape-common-web" options="-parameters" />
-      <module name="ape-frameTest" options="" />
+      <module name="ape-frameTest" options="-parameters" />
       <module name="ape-user" options="-parameters" />
     </option>
   </component>

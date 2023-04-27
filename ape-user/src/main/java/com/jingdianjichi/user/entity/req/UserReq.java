@@ -1,11 +1,9 @@
-package entity.dto;
+package com.jingdianjichi.user.entity.req;
 
 import lombok.Data;
 
-import java.util.Date;
-
 @Data
-public class UserDto {
+public class UserReq {
     private String name;
     private Integer age;
 
