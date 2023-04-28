@@ -36,6 +36,22 @@
             <artifactId>ape-common-mybatisplus</artifactId>
             <version>${ape.common.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.jingdianjichi</groupId>
+            <artifactId>ape-common-swagger</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>1.4.2.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>1.4.2.Final</version>
+        </dependency>
 
     </dependencies>
 </project>

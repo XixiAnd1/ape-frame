@@ -33,7 +33,15 @@ mybatis-plus:
       logic-delete-field: delete_flag
       logic-delete-value: 1
       logic-not-delete-value: 0
-
+  mapper-location: classpath:mapper/*.xml
+swagger:
+  base-package: com.jingdianjichi
+  title: ape-frame
+  contact-name: 经典鸡翅
+  contact-url: dasd
+  contact-email: dsa
+  version: 1.0
+  description: 从零到一开箱即用脚手架
 
 
 

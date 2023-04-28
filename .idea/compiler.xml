@@ -2,22 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ape-user" />
         <module name="ape-common-mybatisplus" />
+        <module name="ape-common-swagger" />
+        <module name="ape-user" />
         <module name="ape-common-web" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ape-common" options="" />
-      <module name="ape-common-mybatisplus" options="-parameters" />
+      <module name="ape-common" options="-parameters" />
+      <module name="ape-common-mybatisplus" options="" />
+      <module name="ape-common-swagger" options="" />
       <module name="ape-common-web" options="-parameters" />
-      <module name="ape-frameTest" options="-parameters" />
+      <module name="ape-frameTest" options="" />
       <module name="ape-user" options="-parameters" />
     </option>
   </component>
