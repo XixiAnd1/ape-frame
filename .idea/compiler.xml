@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ape-common-mybatisplus" />
         <module name="ape-common-swagger" />
+        <module name="ape-common-redis" />
         <module name="ape-user" />
         <module name="ape-common-web" />
       </profile>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ape-common" options="-parameters" />
       <module name="ape-common-mybatisplus" options="" />
+      <module name="ape-common-redis" options="" />
       <module name="ape-common-swagger" options="" />
       <module name="ape-common-web" options="-parameters" />
       <module name="ape-frameTest" options="" />

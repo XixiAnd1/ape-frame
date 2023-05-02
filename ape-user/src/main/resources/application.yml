@@ -42,6 +42,16 @@ swagger:
   contact-email: dsa
   version: 1.0
   description: 从零到一开箱即用脚手架
+  redis:
+    host: 117.78.51.210
+    port: 6379
+    database: 0
+    lettuce:
+      pool:
+        max-active: 20
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
 
 
 
