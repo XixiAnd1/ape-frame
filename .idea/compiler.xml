@@ -17,7 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ape-common" options="-parameters" />
+      <module name="ape-common" options="" />
       <module name="ape-common-mybatisplus" options="" />
       <module name="ape-common-redis" options="" />
       <module name="ape-common-swagger" options="" />

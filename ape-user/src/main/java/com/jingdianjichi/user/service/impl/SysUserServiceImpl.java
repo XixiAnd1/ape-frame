@@ -35,6 +35,7 @@ public class SysUserServiceImpl implements SysUserService {
     @Override
     @Cacheable(cacheNames = "sysUser", key = "'querySysUserById'+#id")
     public SysUser queryById(Long id) {
+        //测试是否走缓存，如果没有走，则打印1
         System.out.println("1");
         return this.sysUserDao.queryById(id);
     }
