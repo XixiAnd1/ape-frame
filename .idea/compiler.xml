@@ -10,6 +10,7 @@
         <module name="ape-common-mybatisplus" />
         <module name="ape-common-swagger" />
         <module name="ape-common-redis" />
+        <module name="ape-common-starter" />
         <module name="ape-user" />
         <module name="ape-common-web" />
       </profile>
@@ -21,9 +22,10 @@
       <module name="ape-common-mybatisplus" options="" />
       <module name="ape-common-redis" options="" />
       <module name="ape-common-swagger" options="" />
-      <module name="ape-common-web" options="-parameters" />
+      <module name="ape-common-web" options="" />
+      <module name="ape-dependencies" options="" />
       <module name="ape-frameTest" options="" />
-      <module name="ape-user" options="-parameters" />
+      <module name="ape-user" options="" />
     </option>
   </component>
 </project>

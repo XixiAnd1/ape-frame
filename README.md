@@ -1,17 +1,16 @@
 # ape-frameTest
 鸡翅编程学习脚手架搭建
 本次视频内容：
-1.服务器redis漏洞中木马复盘（一定要设置redis密码）
-2.手写redis分布式锁
-    (1)入参校验
-    (2)加锁时自旋
-    (3)借助redis的setnx来进行锁的设置
-3.分布式锁场景
-    （1）批任务调度
-    （2）并发操作同一个数据时，需要考虑加锁
-4.spring注解缓存方式
-    （1）通过注解@Cacheable，在controller使用get请求时，
-        将数据库的数据查出来的同时，存储到redis缓存
-    （2）在application里添加注解@EnableCaching
-5.快捷注释
-    （1）file-setting-editor-live templates
+（1）日志log4j集成，异步日志集成
+    1.引入log4j2-spring.xml，通过mavenHelper排除dependency冲突
+    2.异步日志：引入disruptor与AsyncLogger，一边打日志，业务代码继续往下执行,适用于需要打印大量日志场景
+（2）项目整体结构优化
+    1.maven引入jar包的版本号统一管理
+    2.common项目与业务项目的解耦
+    3.业务项目需要的common，才引入到业务项目pom，不应直接放在整体项目pom
+    （因为实际开发中，common和业务项目分别在各自的git上，不会混为一谈）
+（3）代码优化
+    1.删除user相关文件
+    2.mapper放入resources
+    3.java放入dao
+    4.application文件只扫dao
