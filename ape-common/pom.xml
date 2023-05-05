@@ -7,7 +7,8 @@
         <artifactId>ape-dependencies</artifactId>
         <groupId>com.jingdianjichi</groupId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath/>
+        <!--<relativePath/>-->
+        <relativePath>../ape-dependencies/pom.xml</relativePath>
     </parent>
 
     <artifactId>ape-common</artifactId>
@@ -22,7 +23,6 @@
         <module>ape-common-mybatisplus</module>
         <module>ape-common-redis</module>
         <module>ape-common-swagger</module>
-        <module>ape-common-starter</module>
         <module>ape-common-log</module>
         <module>ape-common-tool</module>
     </modules>
