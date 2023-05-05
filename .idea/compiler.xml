@@ -8,13 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ape-common-mybatisplus" />
-        <module name="ape-common-swagger" />
         <module name="ape-common-redis" />
-        <module name="ape-common-starter" />
         <module name="ape-user" />
         <module name="ape-common-web" />
+        <module name="ape-common-log" />
+        <module name="ape-common-swagger" />
+        <module name="ape-common-starter" />
+        <module name="ape-common-tool" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ape-common-tool1" target="1.8" />
+      <module name="dsadasdas" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

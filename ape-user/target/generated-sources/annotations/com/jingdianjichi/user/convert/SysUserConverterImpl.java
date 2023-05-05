@@ -6,7 +6,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-05-04T15:53:48+0800",
+    date = "2023-05-05T22:24:16+0800",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 1.8.0_372 (Amazon.com Inc.)"
 )
 public class SysUserConverterImpl implements SysUserConverter {
@@ -18,16 +18,6 @@ public class SysUserConverterImpl implements SysUserConverter {
         }
 
         SysUser sysUser = new SysUser();
-
-        sysUser.setId( sysUserReq.getId() );
-        sysUser.setName( sysUserReq.getName() );
-        sysUser.setAge( sysUserReq.getAge() );
-        sysUser.setCreateBy( sysUserReq.getCreateBy() );
-        sysUser.setCreateTime( sysUserReq.getCreateTime() );
-        sysUser.setUpdateBy( sysUserReq.getUpdateBy() );
-        sysUser.setUpdateTime( sysUserReq.getUpdateTime() );
-        sysUser.setDeleteFlag( sysUserReq.getDeleteFlag() );
-        sysUser.setVersion( sysUserReq.getVersion() );
 
         return sysUser;
     }

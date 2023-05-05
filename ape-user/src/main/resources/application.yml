@@ -55,6 +55,9 @@ swagger:
   description: 从零到一开箱即用脚手架
 logging:
   config: classpath:log4j2-spring.xml
+log:
+  aspect:
+    enable: false
 
 
 
