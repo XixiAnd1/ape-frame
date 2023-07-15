@@ -11,6 +11,10 @@ import org.springframework.transaction.support.TransactionTemplate;
 import javax.annotation.Resource;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @Author: ChickenWing
@@ -27,6 +31,7 @@ public class JdbcTemplateDemo {
     private TransactionTemplate transactionTemplate;
 
     public void demo() {
+
         Object execute = jdbcTemplate.execute(new StatementCallback<Object>() {
             @Override
             public Object doInStatement(Statement statement) throws SQLException, DataAccessException {

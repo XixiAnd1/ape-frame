@@ -58,6 +58,8 @@ logging:
 log:
   aspect:
     enable: false
-
+guava:
+  cache:
+    switch: true
 
 
