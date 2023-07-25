@@ -25,6 +25,8 @@
         <module>ape-common-swagger</module>
         <module>ape-common-log</module>
         <module>ape-common-tool</module>
+        <module>ape-common-test</module>
+        <module>ape-common-job</module>
     </modules>
 
     <dependencyManagement>
@@ -67,6 +69,11 @@
             <dependency>
                 <groupId>com.jingdianjichi</groupId>
                 <artifactId>ape-common-websocket</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jingdianjichi</groupId>
+                <artifactId>ape-common-job</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

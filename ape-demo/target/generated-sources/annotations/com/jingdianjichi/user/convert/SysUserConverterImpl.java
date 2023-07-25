@@ -6,7 +6,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-07-17T17:10:08+0800",
+    date = "2023-07-25T12:04:28+0800",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 1.8.0_372 (Amazon.com Inc.)"
 )
 public class SysUserConverterImpl implements SysUserConverter {

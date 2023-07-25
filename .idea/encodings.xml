@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ape-common/ape-common-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ape-common/ape-common-job/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-log/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-log/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-mybatisplus/src/main/java" charset="UTF-8" />
@@ -11,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ape-common/ape-common-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ape-common/ape-common-test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-tool/src/main/dasds" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-tool/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ape-common/ape-common-tool/src/main/resources" charset="UTF-8" />
