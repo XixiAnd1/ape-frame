@@ -1,27 +1,85 @@
-09:52:28.973  [main] INFO  com.jingdianjichi.demo.SysUserServiceTest - Starting SysUserServiceTest using Java 1.8.0_372 on DESKTOP-SCCOSL0 with PID 6904 (started by XixiAnd11 in C:\Users\XixiAnd11\IdeaProjects\ape-frameTest\ape-demo)
-09:52:28.983  [main] INFO  com.jingdianjichi.demo.SysUserServiceTest - The following profiles are active: local
-09:52:29.914  [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-09:52:29.918  [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-09:52:29.960  [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
-09:52:31.873  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
-09:52:31.885  [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
-09:52:31.885  [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-09:52:31.885  [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-09:52:32.004  [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-09:52:32.004  [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2992 ms
-09:52:32.727  [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
-09:52:33.280  [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
-09:52:35.913  [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-09:52:36.275  [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-09:52:37.043  [main] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-09:52:37.185  [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
-09:52:37.220  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 50075 (http) with context path ''
-09:52:37.221  [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-09:52:37.254  [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-09:52:37.309  [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-09:52:37.507  [main] INFO  com.jingdianjichi.demo.SysUserServiceTest - Started SysUserServiceTest in 9.042 seconds (JVM running for 10.209)
-09:52:39.469  [main] INFO  com.jingdianjichi.log.LogAspect - com.jingdianjichi.user.service.impl.SysUserServiceImpl.queryById,req:[1]
-09:52:47.072  [main] INFO  com.jingdianjichi.log.LogAspect - com.jingdianjichi.user.service.impl.SysUserServiceImpl.queryById,response:{"id":1,"name":"dasddsa","age":11,"createBy":"string","createTime":"Apr 28, 2023 11:03:12 AM","updateBy":"dasdasd","updateTime":"Apr 28, 2023 11:03:12 AM","deleteFlag":0,"version":0},costTime:7602
-09:52:47.690  [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-09:52:47.693  [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
-09:52:47.705  [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+21:41:29.284  [main] INFO  com.jingdianjichi.demo.MailThreadPoolTest - Starting MailThreadPoolTest using Java 1.8.0_372 on DESKTOP-SCCOSL0 with PID 14904 (started by XixiAnd11 in C:\Users\XixiAnd11\IdeaProjects\ape-frameTest\ape-demo)
+21:41:29.294  [main] INFO  com.jingdianjichi.demo.MailThreadPoolTest - The following profiles are active: local
+21:41:30.404  [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:41:30.408  [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:41:30.447  [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+21:41:32.321  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+21:41:32.331  [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+21:41:32.331  [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:41:32.332  [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+21:41:32.438  [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:41:32.438  [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2925 ms
+21:41:33.129  [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+21:41:33.669  [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+21:41:36.272  [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:41:36.326  [main] INFO  com.jingdianjichi.job.config.XxlJobConfig - >>>>>>>>>>> xxl-job config init.
+21:41:37.438  [main] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+21:41:37.584  [main] INFO  com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@53b2e1eb[class com.jingdianjichi.user.job.SampleXxlJob#demoJobHandler]
+21:41:37.678  [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+21:41:37.711  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 62149 (http) with context path ''
+21:41:37.712  [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+21:41:37.747  [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+21:41:37.803  [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+21:41:38.319  [main] INFO  com.jingdianjichi.demo.MailThreadPoolTest - Started MailThreadPoolTest in 9.523 seconds (JVM running for 10.687)
+21:41:39.586  [Thread-5] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+21:41:39.754  [main] INFO  com.jingdianjichi.user.init.ApplicationInit - ApplicationInit预热fastjson.costTime86
+21:41:40.095  [main] INFO  com.jingdianjichi.user.delayQueue.MassMailTaskService - 获取延迟群发任务，taskIdSet：[1]
+21:41:40.099  [main] INFO  com.jingdianjichi.demo.MailThreadPoolTest - 定时任务拉取：[1]
+21:41:40.763  [Thread-5] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server stop.
+21:41:41.634  [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_372]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_372]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_372]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_372]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_372]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_372]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_372]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_372]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[?:1.8.0_372]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) [xxl-job-core-2.3.1.jar:?]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) [xxl-job-core-2.3.1.jar:?]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) [xxl-job-core-2.3.1.jar:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_372]
+21:41:41.640  [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='ape-frameTest', registryValue='http://127.0.0.1:9999/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:9000/xxl-job-admin/api/registry, content=null]
+21:41:43.698  [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_372]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_372]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_372]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_372]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_372]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_372]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_372]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_372]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[?:1.8.0_372]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) [xxl-job-core-2.3.1.jar:?]
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47) [xxl-job-core-2.3.1.jar:?]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84) [xxl-job-core-2.3.1.jar:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_372]
+21:41:43.699  [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='ape-frameTest', registryValue='http://127.0.0.1:9999/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:9000/xxl-job-admin/api/registryRemove, content=null]
+21:41:43.699  [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+21:41:43.699  [SpringContextShutdownHook] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server destroy success.
+21:41:43.700  [xxl-job, executor JobLogFileCleanThread] INFO  com.xxl.job.core.thread.JobLogFileCleanThread - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+21:41:43.700  [xxl-job, executor TriggerCallbackThread] INFO  com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+21:41:43.701  [Thread-4] INFO  com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+21:41:43.704  [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+21:41:43.720  [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
