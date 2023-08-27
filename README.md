@@ -1,13 +1,13 @@
 # ape-frameTest
 鸡翅编程学习脚手架搭建
 本次视频内容：
-（1）自定义线程池
-    自定义线程工厂，自定义线程名字，方便查日志
-（2）springmvc静态资源访问
-    如果是前后端不分离开发，则需要访问static文件夹下的文件
-(3)future异步封装
-    设置超时等异常信息时，该如何处理
-(4)spring的event事件驱动
-    设置监听类，如果监测到内容，则执行相应动作，适用于简单，容错性高的事件，不需要依赖mq
-(5)redis实现延迟任务
-    通过pushTask和deal两个测试方法，模拟redis实现延迟任务的发布与消费功能，
+（1）lua脚本编写
+    compareAndSet.lua
+（2）关闭线程池的方式
+    ThreadPoolUtils
+（3）动态配置读取
+    PropertiesUtils
+（4）链路追踪
+    TraceIdFilter
+（5）枚举优化
+    ChannelEnum
